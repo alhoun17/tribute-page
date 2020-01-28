@@ -46,9 +46,18 @@ h3 {
     background: #eee;
 }
 
-@media (max-width: 460px) {
+@media (min-width: 950px) and @media (max-width: 1199px) {
     #main {
         margin: 0;
+    }
+     #img-caption {
+        font-size: 1.8rem;
+    }
+    img {
+        display: block;
+        margin: auto;
+        max-width: 100%;
+        
     }
 }
 
@@ -71,17 +80,7 @@ img {
     margin: 15px 0 5px 0;
 }
 
-@media (max-width: 460px) {
-    #img-caption {
-        font-size: 1.8rem;
-    }
-    img {
-        display: block;
-        margin: auto;
-        max-width: 100%;
-        
-    }
-}
+
 
 
 

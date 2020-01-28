@@ -39,7 +39,15 @@ h3 {
     background: #eee;
 }
 
-@media (min-width: 950px) and @media (max-width: 1199px) {
+
+#img-div {
+    background-color: white;
+    padding: 15px;
+    margin: 10px;
+    border: gray solid 10px;
+}
+
+@media (min-width: 450px) and @media (max-width: 1199px) {
    h1 {
         font-size: 4.5rem;
         line-height: 1.2;
@@ -55,14 +63,6 @@ h3 {
         max-width: 50%;
         
     }
-}
-
-
-#img-div {
-    background-color: white;
-    padding: 15px;
-    margin: 10px;
-    border: gray solid 10px;
 }
 
 #img-caption {

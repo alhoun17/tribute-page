@@ -47,6 +47,15 @@ h3 {
     border: gray solid 10px;
 }
 
+
+img {
+        display: block;
+        margin: auto;
+        max-width: 100%;
+        height: auto;
+        
+    }
+
 @media (min-width: 450px) and @media (max-width: 1199px) {
    h1 {
         font-size: 4.5rem;
@@ -58,11 +67,7 @@ h3 {
      #img-caption {
         font-size: 1.8rem;
     }
-    img {
-        display: block;
-        max-width: 30%;
-        
-    }
+    
 }
 
 #img-caption {
